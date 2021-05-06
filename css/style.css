@@ -35,7 +35,7 @@
 }
 
 #todoList{
-    width: 300px;
+    width: 350px;
 }
 
 #key, #value, #taskPt, #task, #Tasks{
@@ -61,7 +61,7 @@
     font-family: sans-serif;
     width: auto;
 }
-
+/*
 @media screen and (orientation:portrait) {
     #todoList{
         width: 100%;
