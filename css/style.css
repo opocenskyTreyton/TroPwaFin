@@ -76,13 +76,13 @@
 }
 */
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     #todoList{
         width: 100%;
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
     #todoList{
         width: 100%;
     }
