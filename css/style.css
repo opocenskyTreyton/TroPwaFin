@@ -71,6 +71,9 @@ p{
 }
 
 @media screen and (max-width: 400px) {
+    .button{
+        margin-top: 12px;
+    }
     #todoList{
         width: 100%;
     }
