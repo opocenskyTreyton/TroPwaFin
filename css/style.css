@@ -77,13 +77,13 @@
 */
 
 @media screen and (min-width: 600px) {
-    .contentBox{
-        flex: 1 1 calc(50% - 2 rem);
+    #todoList{
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 900px) {
-    .contentBox{
-        flex: 1 1 calc(33% - 2 rem);
+    #todoList{
+        width: 100%;
     }
 }
