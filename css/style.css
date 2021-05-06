@@ -71,6 +71,8 @@ p{
 }
 
 @media screen and (orientation:portrait) {
+    #textBox{
+        width: 60%;
     #todoList{
         width: 100%;
     }
