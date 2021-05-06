@@ -62,27 +62,7 @@
     width: auto;
 }
 
-
-/*
-.contentBox{
-    display: inline-block;
-    margin: 1rem;
-}
-
-.chunk{
-    border: 5px solid #4CAF50;
-    border-radius: 25px;
-    margin: 0 auto;
-}
-*/
-
-@media screen and (max-width: 600px) {
-    #todoList{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
     #todoList{
         width: 100%;
     }
