@@ -7,7 +7,7 @@ function regSW(){
 }
 
 function login() {
-  var infile = ('{"Emil":[{"Name":"Philosophy Final","Due":"4/28/21","Status":"Important"},{"Name":"Mobile App Final","Due": "5/2/21","Status": "Very Important"}],"Marta":[{"Name":"Greek History Test","Due":"B/28/22","Status":"Long-Term"},{"Name":"Take Out Trash","Due": "Every Tuesday","Status": "Important"}]}')
+  var infile = ('{"Emil":[{"Name":"Philosophy Final","Due":"4/28/21","Status":"Important"},{"Name":"Mobile App Final","Due": "5/2/21","Status": "Very Important"}],"Marta":[{"Name":"Greek History Test","Due":"7/28/22","Status":"Long-Term"},{"Name":"Take Out Trash","Due": "Every Tuesday","Status": "Important"}]}')
   var list = JSON.parse(infile);
   
   var userName = document.getElementById("userInput").value;
