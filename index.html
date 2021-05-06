@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo List</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="manifest" href="manifest.json">
+        <link rel="icon" href"favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <meta name="theme-color" content="white">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Hello World">
+        <meta name="msapplication-TitleColor" content="#FFFFFF">
+        <meta name="msapplication-TitleImage" content="images/hello-icon-144.png">
+    </head>
+    <!--<body onload="regSW();">-->
+    <body>
+        <div>
+            <form id="form" onsubmit="return false;">
+                <div class='loginDiv'>
+                    <h1>Login:</h1>
+                    <input class='textBox' type="text" placeholder='UserName' id="userInput" />
+                </div>
+                <input class='button' type="submit" onclick="login();" />
+            </form>
+
+            <div id='todoList'></div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
