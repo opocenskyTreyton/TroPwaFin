@@ -1,31 +1,16 @@
-body{
-    text-align: center;
-    width: 50%;
-}
-
-#task{
-    width: 100%;
-    border: 2px solid #4CAF50;
-    border-radius: 3px;
-    margin: 0 0 0 0;
-}
-
-#taskPt{
+#center{
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 0 0 0 0;
+    width: 100%;
 }
 
-#key, #value{
-    font-size: 1.5rem;
-    font-family: sans-serif;
-    width: auto;
+.loginDiv{
+    display: inline-block;
+    text-align: center;
 }
-
-
 
 .textBox {
     border-radius: 25px;
@@ -34,11 +19,6 @@ body{
     width: 200px;
     height: 15px;
     font-size: 1.5rem;
-}
-
-.loginDiv{
-    display: inline-block;
-    text-align: center;
 }
 
 .button {
@@ -52,6 +32,34 @@ body{
     display: inline-block;
     font-size: 16px;
     size: 1rem;
+}
+
+#todoList{
+    width: 25%;
+}
+
+#key, #value, #taskPt, #task, #Tasks{
+    width: 100%;
+}
+
+#task{
+    border: 2px solid #4CAF50;
+    border-radius: 3px;
+    margin: 0 0 0 0;
+}
+
+#taskPt{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#key, #value{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    width: auto;
 }
 
 
